@@ -1,0 +1,8 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["typescript", "react", "jsx-a11y"],
+  "rules": {
+    "no-control-regex": "off",
+    "jsx-a11y/prefer-tag-over-role": "off"
+  }
+}
